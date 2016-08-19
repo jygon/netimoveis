@@ -1,0 +1,14 @@
+create table Pessoa (id int not null auto_increment,
+    -> cpf varchar(11) not null,
+    -> created datetime not null default now(),
+    -> idade int,
+    -> nome varchar(250) not null,
+    -> celular1 int,
+    -> celular2 int,
+    -> telefone1 int,
+    -> telefone2 int,
+    -> email1 varchar(200),
+    -> email2 varchar(200),
+    -> profissao varchar(100),
+    -> primary key (id))
+    -> ;
